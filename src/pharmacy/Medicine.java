@@ -359,7 +359,11 @@ public class Medicine extends javax.swing.JFrame {
     }//GEN-LAST:event_AddbtnMouseClicked
 
     private void AddbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AddbtnActionPerformed
-        
+        String medname = MedName.getText();
+        int medprice =Integer.parseInt(MedPrice.getText());
+        int quantity =Integer.parseInt(MedQty.getText());
+        String fab = FabDate.getText();
+       
     }//GEN-LAST:event_AddbtnActionPerformed
 
     private void UpdatebtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UpdatebtnActionPerformed
